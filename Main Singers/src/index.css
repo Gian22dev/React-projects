@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#root{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  background: linear-gradient(to bottom, rgb(27, 26, 26), rgb(16, 16, 16));
+  padding: 0 10px;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
